@@ -1,0 +1,23 @@
+<div class="page-header">
+    <h1>Login page</h1>
+</div>
+
+<p>Please input your credentials:</p>
+
+<?php echo $this->tag->form("login"); ?>
+
+    <p>
+        <label for="login">Login</label>
+        <?= $this->tag->textField("login"); ?>
+    </p>
+
+    <p>
+        <label for="password">E-Mail</label>
+        <?= $this->tag->textField("password"); ?>
+    </p>
+
+    <p>
+        <?= $this->tag->submitButton("Login"); ?>
+    </p>
+
+</form>
